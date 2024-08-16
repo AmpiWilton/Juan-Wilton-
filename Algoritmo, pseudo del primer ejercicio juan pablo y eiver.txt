@@ -1,0 +1,42 @@
+Algoritmo: Algoritmo para mostrar información de un producto.
+
+1.iniciar
+2.declarar las variables para el nombre del producto, descripción del producto, precio, código de barras
+3.asignar valores a las variables con la información correspondiente
+4.mostrar la información del producto
+5.finalizar
+
+
+Pseudocodigo:
+
+Program mostrar_Informacion_producto
+
+Start
+//Programa para mostrar información personal 
+
+//Declaración de variables:
+Declare string nombre_del_producto 
+Declare string descripción_del_producto 
+Declare float precio_del_producto
+Declare string codigo_barras
+
+//Asignación de datos
+Display Ingrese nombre del producto"
+input  nombre_del_producto
+Display Ingrese la descripción del producto"
+input descripción_del_producto"
+Display Ingrese precio del producto
+input precio_del_producto
+display Ingrese código de barras
+input  código_de_barras
+
+// Presentación de información de producto
+Display "nombre:",nombre
+Display "descripción:".descripcion
+Display "precio:",precio 
+Display "codigo_barras:",código de barras 
+
+end
+
+
+
