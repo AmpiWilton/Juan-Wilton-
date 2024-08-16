@@ -1,0 +1,52 @@
+Algoritmo: Algoritmo para ganancias y perdidas en negocio de ventas de autos
+
+Iniciar
+1.Definir el precio de compra del automóvil como $15,000
+2.Definir el costo de reparaciones como $2,000
+3.Definir el precio de venta del automóvil como $18,500
+4.Definir la tasa de comisión como 5%
+5.Calcular el costo total del automóvil: costo total = precio compra + reparaciones
+6.Calcular la comisión del vendedor: comisión = precio venta * (tasa comisión / 100)
+7.Calcular la ganancia bruta: ganancia bruta = precio venta - costo total
+8.Calcular la ganancia neta: ganancia neta = ganancia bruta - comisión
+9.Mostrar la comisión, la ganancia bruta y la ganancia neta
+10.Finalizar
+
+Program calcular_Ganancias_Y_Pérdidas_en_negocio_de_ventas_de_autos
+Start
+// Programa para calcular las ganancias y pérdidas de un concesionario de autos
+
+// Declaración de variables
+Declare float precio_compra
+Declare float reparaciones
+Declare float precio_venta
+Declare float tasa_comision
+Declare float costo_total
+Declare float comision
+Declare float ganancia_bruta
+Declare float ganancia_neta
+
+// Inicialización de datos
+Set precio_compra = 15000
+Set reparaciones = 2000
+Set precio_venta = 18500
+Set tasa_comision = 5
+
+// Cálculo del costo total
+Set costo_total = precio_compra + reparaciones
+
+// Cálculo de la comisión
+Set comision = precio_venta * (tasa_comision / 100)
+
+// Cálculo de la ganancia bruta
+Set ganancia_bruta = precio_venta - costo_total 
+
+// Cálculo de la ganancia neta
+Set ganancia_neta = ganancia_bruta - comision
+
+// Presentación de resultados
+Display "Comisión pagada al vendedor: ", comision
+Display "Ganancia bruta del concesionario: ", ganancia_bruta
+Display "Ganancia neta del concesionario: ", ganancia_neta
+
+End
