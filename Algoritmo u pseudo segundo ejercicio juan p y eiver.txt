@@ -12,6 +12,7 @@ Iniciar
 9.Mostrar la comisión, la ganancia bruta y la ganancia neta
 10.Finalizar
 
+pseudocodigo:
 Program calcular_Ganancias_Y_Pérdidas_en_negocio_de_ventas_de_autos
 Start
 // Programa para calcular las ganancias y pérdidas de un concesionario de autos
